@@ -30,7 +30,8 @@ public class ListTests {
 
     @Test
     public void defaultListHasSixStrings() {
-        assertThat(strings.size(), is(6));
+        assertThat(strings.size(), is(6)); //simpler to read
+        assertEquals(strings.size(), 6);
     }
 
     @After
